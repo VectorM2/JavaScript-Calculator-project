@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="box">
+    <h3 id="title">Casio Fz-82 ZA</h3>
+    <div class="display">
+      <input id="display" type="text" size="18px" readonly>
+    </div>
+    <div class="buttons">
+      <p>
+        <input id="key" type="button" value="mc" onclick=c("by")>
+        <input id="key" type="button" value="mc+" onclick=c("vectorm")>
+        <input id="key" type="button" value="mc-" onclick=c("subscribe")>
+        <input id="key" type="button" value="/" onclick=v("/")>
+      </p>
+      <p>
+        <input id="key" type="button" value="7" onclick=v("7")>
+        <input id="key" type="button" value="8" onclick=v("8")>
+        <input id="key" type="button" value="9" onclick=v("9")>
+        <input id="key" type="button" value="*" onclick=v("*")>
+      </p>
+      <p>
+        <input id="key" type="button" value="4" onclick=v("4")>
+        <input id="key" type="button" value="5" onclick=v("5")>
+        <input id="key" type="button" value="6" onclick=v("6")>
+        <input id="key" type="button" value="+" onclick=v("+")>
+      </p>
+      <p>
+        <input id="key" type="button" value="1" onclick=v("1")>
+        <input id="key" type="button" value="2" onclick=v("2")>
+        <input id="key" type="button" value="3" onclick=v("3")>
+        <input id="key" type="button" value="-" onclick=v("-")>
+      </p>
+      <p>
+        <input id="key" type="button" value="0" onclick=v("0")>
+        <input id="key" type="button" value="." onclick=v(".")>
+        <input id="keys" type="button" value="AC" onclick=c("")>
+        <input id="keys" type="button" value="=" onclick=d("=")>
+      </p>
+    </div>
+  </div>
+ 
+  <script src=" script.js">
+</body>
+
+</html>

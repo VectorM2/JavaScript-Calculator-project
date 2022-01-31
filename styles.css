@@ -1,0 +1,92 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url(vectorm.png);
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.box {
+  border: none;
+  height: 410px;
+  width: 295px;
+  top: 50px;
+  left: 20%;
+  position: relative;
+  border-radius: 10px;
+  background: #2C2C25;
+}
+
+#display {
+  border: none;
+  position: relative;
+  background: #FFFEE5;
+  top: 10px;
+  left: 15px;
+  text-align: right;
+  width: 260px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+.buttons {
+  position: relative;
+  top: 5px;
+  margin-left: 16px;
+  text-align: center;
+  width: 260px;
+}
+
+#key {
+  border: none;
+  height: 45px;
+  width: 60px;
+  background: grey;
+  border-radius: 5px;
+  line-height: 15px;
+  font-size: 22px;
+  color: white;
+
+}
+
+#key:active {
+  border-bottom: 10px solid black;
+  transform: scale(0.9);
+  background: lightskyblue;
+}
+#keys:active {
+  border-bottom: 10px solid black;
+  transform: scale(0.9)
+}
+
+p {
+  line-height: 15px;
+
+}
+
+#title {
+  color: whitesmoke;
+  font-size: 16px;
+  text-decoration: underline solid blue 2px;
+  margin: 5px;
+  padding: 5px;
+}
+
+
+#keys {
+  border: none;
+  height: 45px;
+  width: 60px;
+  background: red;
+  border-radius: 5px;
+  line-height: 15px;
+  font-size: 22px;
+  color: white;
+  
+}
+
+
+#display:hover{
+  transform: scale(1.2)
+}
